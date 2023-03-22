@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-tabuada',
   standalone: true,
-  imports: [ FormsModule ],
+  imports: [ Comm, FormsModule ],
   templateUrl: './tabuada.component.html',
   styleUrls: ['./tabuada.component.css'],
 })
