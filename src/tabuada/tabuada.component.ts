@@ -10,10 +10,10 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./tabuada.component.css'],
 })
 export class TabuadaComponent implements OnInit {
-  update() {}
-  
+  calculate() {}
+
   constructor() {
-    this.update;
+    this.calculate;
   }
 
   ngOnInit() {}
