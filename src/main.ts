@@ -11,7 +11,7 @@ import { TabuadaComponent } from './tabuada/tabuada.component';
   templateUrl: './main.html',
 })
 export class App {
-  name = "Tabuada via Parâmetro"
+  name = 'Tabuada via Parâmetro';
 }
 
 bootstrapApplication(App);
