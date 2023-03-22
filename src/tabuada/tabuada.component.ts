@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabuada.component.css'],
 })
 export class TabuadaComponent implements OnInit {
+
+  
   constructor() {}
 
   ngOnInit() {}
