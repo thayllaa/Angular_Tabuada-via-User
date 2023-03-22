@@ -7,9 +7,10 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: '',
+  templateUrl: './main.html',
 })
 export class App {
+  name = "Tabuada via Parâmetro"
 }
 
 bootstrapApplication(App);
