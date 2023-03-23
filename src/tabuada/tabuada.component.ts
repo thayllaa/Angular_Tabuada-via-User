@@ -13,13 +13,14 @@ export class TabuadaComponent implements OnInit {
   @Input() num: number = 0;
   counter = 0;
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit() {}
 
   calculate() {
     var tabuada = '';
-    var res = this.num;
+    var valor = this.num;
     for (var i = 1; i <= 10; i++) {
       tabuada +=
         this.num +
