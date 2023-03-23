@@ -5,13 +5,12 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-tabuada',
   standalone: true,
-  imports: [ FormsModule, CommonModule ],
+  imports: [FormsModule, CommonModule],
   templateUrl: './tabuada.component.html',
   styleUrls: ['./tabuada.component.css'],
 })
 export class TabuadaComponent implements OnInit {
   @Input() num: number = 0;
-  show: boolean = false;
   counter = 0;
 
   constructor() {}
@@ -19,13 +18,17 @@ export class TabuadaComponent implements OnInit {
   ngOnInit() {}
 
   calculate() {
-    var numTabuada = '';
-    var valor = this.num;
-    for(var count = 1; count <= 10; count++) {
-        numTabuada += 
-        this.num + ' X ' + count + ' = ' + Number(this.num) * count + `\n`;
-      }
-      return this.calculate;
+    var tabuada = '';
+    var res = this.num;
+    for (var i = 1; i <= 10; i++) {
+      tabuada +=
+        this.num +
+        ' X ' +
+        this.counter +
+        ' = ' +
+        Number(this.num) * this.counter +
+        `\n`;
     }
+    return this.calculate;
   }
 }

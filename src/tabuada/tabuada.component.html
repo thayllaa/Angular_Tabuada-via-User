@@ -3,12 +3,12 @@
   <button (click)="calculate()"> Calculate </button>
   <hr/>
   <table border="1">
-    <tr>
+    <tr *ngFor="let i in calculate()">
       <th>Tabuada </th>
       <th> Resultado </th>
     </tr>
-    <tr>
-      <td> n </td>
+    <tr *ngIf="">
+      <td> {{  }} </td>
       <td> n </td>
     </tr>
   </table>
