@@ -13,8 +13,7 @@ export class TabuadaComponent implements OnInit {
   @Input() num: number = 0;
   counter = 0;
 
-  constructor() {
-  }
+  constructor() {}
 
   ngOnInit() {}
 
