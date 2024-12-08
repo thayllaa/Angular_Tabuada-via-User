@@ -1,0 +1,91 @@
+/* Layout Flexível para o corpo da página */
+html,
+body {
+  height: 100%; /* Garantir que o corpo ocupe toda a altura da tela */
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Organiza os itens na vertical */
+}
+
+/* Estilização básica para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+table thead {
+  background-color: #a44b3f;
+  color: white;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+  background-color: #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+/* Estilização para o footer */
+footer {
+  padding: 2rem;
+  align-items: center;
+  position: absolute;
+  bottom: 0%;
+  width: 87.2%;
+  background-color: #343434;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+footer nav {
+  display: flex;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #f09c78;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}

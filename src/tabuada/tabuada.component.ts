@@ -11,24 +11,22 @@ import { CommonModule } from '@angular/common';
 })
 export class TabuadaComponent implements OnInit {
   @Input() num: number = 0;
-  counter = 0;
+  tabuada: { multiplier: number, result: number }[] = [];
 
   constructor() {}
 
   ngOnInit() {}
 
+  onInputChange(event: Event) {
+    const inputElement = event.target as HTMLInputElement;  // Cast do tipo de evento
+    this.num = Number(inputElement.value);  // Converte o valor do input para número
+  }
+
   calculate() {
-    var tabuada = '';
-    var valor = this.num;
-    for (var i = 1; i <= 10; i++) {
-      tabuada +=
-        this.num +
-        ' X ' +
-        this.counter +
-        ' = ' +
-        Number(this.num) * this.counter +
-        `\n`;
+    const results = [];
+    for (let i = 1; i <= 10; i++) {
+      results.push({ multiplier: i, result: this.num * i });
     }
-    return this.calculate;
+    this.tabuada = results;
   }
 }
