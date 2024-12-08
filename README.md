@@ -1,12 +1,12 @@
-# Tabuada via Parâmetro
+# 📌 Tabuada via Parâmetro
 
 Este projeto é uma aplicação simples construída com Angular que permite ao usuário calcular a tabuada de um número informado. O usuário pode inserir um número no campo de entrada e, ao clicar no botão "Calculate", a aplicação exibe a tabuada desse número de 1 a 10.
 
-## Descrição
+## 📃 Descrição
 
 O projeto foi desenvolvido para demonstrar o uso de componentes em Angular, incluindo o uso de diretivas como `*ngFor` para gerar dinamicamente a tabuada, bem como a implementação de formulários com `ngModel`. Além disso, o projeto contém um footer com links para o GitHub e LinkedIn.
 
-## Como Rodar o Projeto Localmente
+## 💻 Como Rodar o Projeto Localmente
 
 ### 1. Instalar o Node.js
 Primeiro, você precisa ter o [Node.js](https://nodejs.org/) instalado. Para verificar se já está instalado, execute o seguinte comando no terminal:
@@ -53,15 +53,19 @@ Depois de executar o comando ng serve, você pode acessar a aplicação no naveg
 http://localhost:4200
 ```
 
-## Rodando no [StackBlitz](https://stackblitz.com/):zap:
+## 🚀 Rodando no [StackBlitz⚡](https://stackblitz.com/)
 Se você tem uma conta no StackBlitz, você pode rodar este projeto diretamente na plataforma sem precisar de nenhuma configuração local. Siga os passos abaixo:
 - Acesse o repositório do projeto [Tabuada via Parâmetro](https://stackblitz.com/edit/angular-xqeyfp) no StackBlitz ou crie um novo projeto Angular na plataforma.
 - Importe os arquivos do projeto para o StackBlitz.
 - Ao abrir o StackBlitz, a aplicação será automaticamente compilada e ficará acessível diretamente no navegador.
 > O StackBlitz é uma excelente plataforma para testar rapidamente aplicações Angular sem precisar configurar um ambiente local. :fire:
 
-## Tecnologias Utilizadas 💻
-[![Tecnologias Usadas](https://skillicons.dev/icons?i=angular,typescript,html,css,github,linkedin)](https://skillicons.dev)
+## ✨ Tecnologias Utilizadas
+[![Tecnologias Usadas](https://skillicons.dev/icons?i=angular,typescript,html,css)](https://skillicons.dev)
 
-## Autor 👩
-Desenvolvido por [@thayllaa](https://www.github.com/thayllaa)
+## 🔗 Links Úteis
+- [GitHub](https:github.com)
+- [LinkedIn](https://www.linkedin.com/)
+
+## 👩‍💻 Autor
+Desenvolvido por **[@thayllaa](https://www.github.com/thayllaa)**
